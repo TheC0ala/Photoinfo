@@ -61,10 +61,10 @@ Alvi('sendMessage',[
 'reply_to_message_id'=>$message_id,
 ]);
 }
-if($msg == "/start" or $msg == "/start@MissAlvi_bot"){
+if($msg == "/start" or $msg == "/start@salamdortbot"){
 Alvi('sendMessage',[
 'chat_id'=>$chat_id,
-'text'=>"***Hey  👋 $first_name,
+'text'=>"***salam brayva $first_name,
 
 I'm $BOT_NAME a powerfull AI Bot
 
@@ -75,8 +75,8 @@ Also add me to your group and make me admin. I'll reply to every photo😌.***",
 'parse_mode'=>"MarkDown",
 'reply_markup' =>  json_encode([
 'inline_keyboard' => [
-[['text' => "SUPPORT",'url' => "https://telegram.me/induschats"],['text' => "CREATOR", 'url' => "https://telegram.me/benchamxd"]],
-[['text' => "ADD ME", 'url' => "https://telegram.me/$BOT_USERNAME?startgroup=False"],['text' => "Repo", 'url' => "https://github.com/Benchamxd/Ai-Bot"]], 
+[['text' => "UserBot",'url' => "https://telegram.me/userlandresmi"],['text' => "Sahibim", 'url' => "https://telegram.me/c0alaa"]],
+[['text' => "Əlavə Et", 'url' => "https://telegram.me/$BOT_USERNAME?startgroup=False"],['text' => "Repo", 'url' => "https://github.com/thec0ala/photoinfo"]], 
 ]])
 ]);
 }
